@@ -1681,8 +1681,8 @@ MonoBehaviour:
     XP \uD544\uC694\uB7C9 \uB4F1\uC758 \uC870\uAC74\uC740 \uC9C0\uC18D\uC801\uC73C\uB85C
     \uBCC0\uACBD\uB428.\n2. \uB3D9\uC804 \uD68D\uB4DD\uC5D0 \uB530\uB77C XP\uAC00
     \uC99D\uAC00\uB418\uACE0 \uC77C\uC815\uB7C9 \uB3C4\uB2EC\uC2DC, \uB808\uBCA8\uC5C5
-    \uAC00\uB2A5\n3. '\u2191'\uD0A4\uB97C \uB20C\uB7EC \uB2EC\uB9AC\uAE30\n4. 'P'\uB97C
-    \uB20C\uB7EC \uACF5\uACA9."
+    \uAC00\uB2A5\n3. '\u2191\uB098 w'\uD0A4\uB97C \uB20C\uB7EC \uB2EC\uB9AC\uAE30\n4.
+    'P'\uB97C \uB20C\uB7EC \uACF5\uACA9."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 46f5f85c438a07e4abe47571779adcd0, type: 2}
   m_sharedMaterial: {fileID: 6268561107970271381, guid: 46f5f85c438a07e4abe47571779adcd0,

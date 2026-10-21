@@ -464,13 +464,7 @@
         454,
         455,
         456,
-        457,
-        458,
-        459,
-        460,
-        461,
-        462,
-        463
+        457
       ],
       "DebugActionIndex": 0
     },
@@ -25633,156 +25627,46 @@
       "DebugActionIndex": 435
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-      "DisplayName": "7z build.framework.js",
-      "Action": "cd \"C:/Users/user/Desktop/team2/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/Tools/7z.exe\" a -tgzip \"C:/Users/user/Desktop/team2/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked\" \"build.framework.js\"",
+      "Annotation": "CopyFiles C:/Users/user/Downloads/html/Build/html.framework.js",
+      "DisplayName": "Copying html.framework.js",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/Tools/7z.exe"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js"
       ],
       "InputFlags": [
-        0,
         0
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked"
+        "C:/Users/user/Downloads/html/Build/html.framework.js"
       ],
       "OutputFlags": [
-        0
+        10
       ],
       "ToBuildDependencies": [
         435
       ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
       "DebugActionIndex": 436
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/html.framework.js.gz_raqd.info",
-      "DisplayName": "Writing html.framework.js.gz_raqd.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 180316,
-      "PayloadLength": 480,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "InputFlags": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/html.framework.js.gz_raqd.info"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "DebugActionIndex": 437
-    },
-    {
-      "Annotation": "GzipMarker C:/Users/user/Downloads/html/Build/html.framework.js.gz",
-      "DisplayName": "Adding Gzip Headers",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.22f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.22f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\html.framework.js.gz_raqd.info\"",
+      "Annotation": "CopyFiles C:/Users/user/Downloads/html/Build/html.wasm",
+      "DisplayName": "Copying html.wasm",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-        "Library/Bee/artifacts/csharpactions/html.framework.js.gz_raqd.info",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm"
       ],
       "InputFlags": [
-        0,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      "Outputs": [
-        "C:/Users/user/Downloads/html/Build/html.framework.js.gz"
-      ],
-      "OutputFlags": [
-        8
-      ],
-      "ToBuildDependencies": [
-        436,
-        437
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 438
-    },
-    {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-      "DisplayName": "7z build.wasm",
-      "Action": "cd \"C:/Users/user/Desktop/team2/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/Tools/7z.exe\" a -tgzip \"C:/Users/user/Desktop/team2/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked\" \"build.wasm\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/Tools/7z.exe"
-      ],
-      "InputFlags": [
-        0,
         0
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked"
+        "C:/Users/user/Downloads/html/Build/html.wasm"
       ],
       "OutputFlags": [
-        0
+        10
       ],
       "ToBuildDependencies": [
         433
       ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 439
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/html.wasm.gz_83m7.info",
-      "DisplayName": "Writing html.wasm.gz_83m7.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 180886,
-      "PayloadLength": 464,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "InputFlags": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/html.wasm.gz_83m7.info"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "DebugActionIndex": 440
-    },
-    {
-      "Annotation": "GzipMarker C:/Users/user/Downloads/html/Build/html.wasm.gz",
-      "DisplayName": "Adding Gzip Headers",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.22f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.22f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\html.wasm.gz_83m7.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-        "Library/Bee/artifacts/csharpactions/html.wasm.gz_83m7.info",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "InputFlags": [
-        0,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      "Outputs": [
-        "C:/Users/user/Downloads/html/Build/html.wasm.gz"
-      ],
-      "OutputFlags": [
-        8
-      ],
-      "ToBuildDependencies": [
-        439,
-        440
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 441
+      "DebugActionIndex": 437
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json",
@@ -25803,7 +25687,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 442
+      "DebugActionIndex": 438
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/MethodMap.tsv",
@@ -25824,13 +25708,13 @@
       "ToBuildDependencies": [
         5
       ],
-      "DebugActionIndex": 443
+      "DebugActionIndex": 439
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info",
       "DisplayName": "Writing webgl.data_qnm2.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 181438,
+      "PayloadOffset": 180306,
       "PayloadLength": 2134,
       "PayloadDebugContentSnippet": "{\"System.Collections.Generic.D",
       "Inputs": [],
@@ -25841,7 +25725,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 444
+      "DebugActionIndex": 440
     },
     {
       "Annotation": "Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data",
@@ -25888,92 +25772,37 @@
       "ToBuildDependencies": [
         2,
         5,
-        444
+        440
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 445
+      "DebugActionIndex": 441
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-      "DisplayName": "7z webgl.data",
-      "Action": "cd \"C:/Users/user/Desktop/team2/Library/Bee/artifacts/WebGL\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/Tools/7z.exe\" a -tgzip \"C:/Users/user/Desktop/team2/Library/Bee/artifacts/WebGL/webgl.data.unmarked\" \"webgl.data\"",
+      "Annotation": "CopyFiles C:/Users/user/Downloads/html/Build/html.data",
+      "DisplayName": "Copying html.data",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/Tools/7z.exe"
+        "Library/Bee/artifacts/WebGL/webgl.data"
       ],
       "InputFlags": [
-        0,
         0
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked"
+        "C:/Users/user/Downloads/html/Build/html.data"
       ],
       "OutputFlags": [
-        0
+        10
       ],
       "ToBuildDependencies": [
-        445
+        441
       ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 446
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/html.data.gz_qy8j.info",
-      "DisplayName": "Writing html.data.gz_qy8j.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 183662,
-      "PayloadLength": 441,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "InputFlags": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/html.data.gz_qy8j.info"
-      ],
-      "OutputFlags": [
-        2
-      ],
-      "DebugActionIndex": 447
-    },
-    {
-      "Annotation": "GzipMarker C:/Users/user/Downloads/html/Build/html.data.gz",
-      "DisplayName": "Adding Gzip Headers",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.22f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2023.1.22f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\html.data.gz_qy8j.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-        "Library/Bee/artifacts/csharpactions/html.data.gz_qy8j.info",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "InputFlags": [
-        0,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      "Outputs": [
-        "C:/Users/user/Downloads/html/Build/html.data.gz"
-      ],
-      "OutputFlags": [
-        8
-      ],
-      "ToBuildDependencies": [
-        446,
-        447
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 448
+      "DebugActionIndex": 442
     },
     {
       "Annotation": "PreprocessJS C:/Users/user/Downloads/html/Build/html.loader.js",
       "DisplayName": "Preprocessing JavaScript html.loader.js",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='C\\x3a/Users/user/Downloads/html/Build/html.loader.js'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='\\ub208\\uc18d\\uc758 \\ud1a0\\uae7d\\uc774\\ub4e4'\" \"PRODUCT_NAME='\\uc124\\ud1a0\\ub07c'\" \"PRODUCT_VERSION='0.2a'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Light'\" \"BACKGROUND_COLOR='\\x23FFFFFF'\" \"DATA_FILENAME='html.data.gz'\" \"FRAMEWORK_FILENAME='html.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='html.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2023.1.22f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='html.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='C\\x3a/Users/user/Downloads/html/Build/html.loader.js'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='\\ub208\\uc18d\\uc758 \\ud1a0\\uae7d\\uc774\\ub4e4'\" \"PRODUCT_NAME='\\uc124\\ud1a0\\ub07c'\" \"PRODUCT_VERSION='0.2a'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Light'\" \"BACKGROUND_COLOR='\\x23FFFFFF'\" \"DATA_FILENAME='html.data'\" \"FRAMEWORK_FILENAME='html.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='html.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK='Disabled'\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2023.1.22f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='html.loader.js'\"",
       "Inputs": [
         "UnityLoader/UnityLoader.js"
       ],
@@ -25987,17 +25816,17 @@
         8
       ],
       "ToBuildDependencies": [
-        438,
-        441
+        436,
+        437
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 449
+      "DebugActionIndex": 443
     },
     {
       "Annotation": "PreprocessJS C:/Users/user/Downloads/html/index.html",
       "DisplayName": "Preprocessing JavaScript index.html",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='C\\x3a/Users/user/Downloads/html/index.html'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='\\ub208\\uc18d\\uc758 \\ud1a0\\uae7d\\uc774\\ub4e4'\" \"PRODUCT_NAME='\\uc124\\ud1a0\\ub07c'\" \"PRODUCT_VERSION='0.2a'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Light'\" \"BACKGROUND_COLOR='\\x23FFFFFF'\" \"DATA_FILENAME='html.data.gz'\" \"FRAMEWORK_FILENAME='html.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='html.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2023.1.22f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='html.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='C\\x3a/Users/user/Downloads/html/index.html'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='\\ub208\\uc18d\\uc758 \\ud1a0\\uae7d\\uc774\\ub4e4'\" \"PRODUCT_NAME='\\uc124\\ud1a0\\ub07c'\" \"PRODUCT_VERSION='0.2a'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Light'\" \"BACKGROUND_COLOR='\\x23FFFFFF'\" \"DATA_FILENAME='html.data'\" \"FRAMEWORK_FILENAME='html.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='html.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK='Disabled'\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2023.1.22f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='html.loader.js'\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html"
       ],
@@ -26011,12 +25840,12 @@
         8
       ],
       "ToBuildDependencies": [
-        438,
-        441
+        436,
+        437
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 450
+      "DebugActionIndex": 444
     },
     {
       "Annotation": "CopyFiles C:/Users/user/Downloads/html/TemplateData/favicon.ico",
@@ -26035,10 +25864,10 @@
         10
       ],
       "ToBuildDependencies": [
-        438,
-        441
+        436,
+        437
       ],
-      "DebugActionIndex": 451
+      "DebugActionIndex": 445
     },
     {
       "Annotation": "CopyFiles C:/Users/user/Downloads/html/TemplateData/fullscreen-button.png",
@@ -26057,10 +25886,10 @@
         10
       ],
       "ToBuildDependencies": [
-        438,
-        441
+        436,
+        437
       ],
-      "DebugActionIndex": 452
+      "DebugActionIndex": 446
     },
     {
       "Annotation": "CopyFiles C:/Users/user/Downloads/html/TemplateData/MemoryProfiler.png",
@@ -26079,10 +25908,10 @@
         10
       ],
       "ToBuildDependencies": [
-        438,
-        441
+        436,
+        437
       ],
-      "DebugActionIndex": 453
+      "DebugActionIndex": 447
     },
     {
       "Annotation": "CopyFiles C:/Users/user/Downloads/html/TemplateData/progress-bar-empty-dark.png",
@@ -26101,10 +25930,10 @@
         10
       ],
       "ToBuildDependencies": [
-        438,
-        441
+        436,
+        437
       ],
-      "DebugActionIndex": 454
+      "DebugActionIndex": 448
     },
     {
       "Annotation": "CopyFiles C:/Users/user/Downloads/html/TemplateData/progress-bar-empty-light.png",
@@ -26123,10 +25952,10 @@
         10
       ],
       "ToBuildDependencies": [
-        438,
-        441
+        436,
+        437
       ],
-      "DebugActionIndex": 455
+      "DebugActionIndex": 449
     },
     {
       "Annotation": "CopyFiles C:/Users/user/Downloads/html/TemplateData/progress-bar-full-dark.png",
@@ -26145,10 +25974,10 @@
         10
       ],
       "ToBuildDependencies": [
-        438,
-        441
+        436,
+        437
       ],
-      "DebugActionIndex": 456
+      "DebugActionIndex": 450
     },
     {
       "Annotation": "CopyFiles C:/Users/user/Downloads/html/TemplateData/progress-bar-full-light.png",
@@ -26167,15 +25996,15 @@
         10
       ],
       "ToBuildDependencies": [
-        438,
-        441
+        436,
+        437
       ],
-      "DebugActionIndex": 457
+      "DebugActionIndex": 451
     },
     {
       "Annotation": "PreprocessJS C:/Users/user/Downloads/html/TemplateData/style.css",
       "DisplayName": "Preprocessing JavaScript style.css",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='C\\x3a/Users/user/Downloads/html/TemplateData/style.css'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='\\ub208\\uc18d\\uc758 \\ud1a0\\uae7d\\uc774\\ub4e4'\" \"PRODUCT_NAME='\\uc124\\ud1a0\\ub07c'\" \"PRODUCT_VERSION='0.2a'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Light'\" \"BACKGROUND_COLOR='\\x23FFFFFF'\" \"DATA_FILENAME='html.data.gz'\" \"FRAMEWORK_FILENAME='html.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='html.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2023.1.22f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='html.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='C\\x3a/Users/user/Downloads/html/TemplateData/style.css'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='\\ub208\\uc18d\\uc758 \\ud1a0\\uae7d\\uc774\\ub4e4'\" \"PRODUCT_NAME='\\uc124\\ud1a0\\ub07c'\" \"PRODUCT_VERSION='0.2a'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Light'\" \"BACKGROUND_COLOR='\\x23FFFFFF'\" \"DATA_FILENAME='html.data'\" \"FRAMEWORK_FILENAME='html.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='html.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK='Disabled'\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2023.1.22f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='html.loader.js'\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2023.1.22f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css"
       ],
@@ -26189,12 +26018,12 @@
         8
       ],
       "ToBuildDependencies": [
-        438,
-        441
+        436,
+        437
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 458
+      "DebugActionIndex": 452
     },
     {
       "Annotation": "CopyFiles C:/Users/user/Downloads/html/TemplateData/unity-logo-dark.png",
@@ -26213,10 +26042,10 @@
         10
       ],
       "ToBuildDependencies": [
-        438,
-        441
+        436,
+        437
       ],
-      "DebugActionIndex": 459
+      "DebugActionIndex": 453
     },
     {
       "Annotation": "CopyFiles C:/Users/user/Downloads/html/TemplateData/unity-logo-light.png",
@@ -26235,10 +26064,10 @@
         10
       ],
       "ToBuildDependencies": [
-        438,
-        441
+        436,
+        437
       ],
-      "DebugActionIndex": 460
+      "DebugActionIndex": 454
     },
     {
       "Annotation": "CopyFiles C:/Users/user/Downloads/html/TemplateData/webgl-logo.png",
@@ -26257,10 +26086,10 @@
         10
       ],
       "ToBuildDependencies": [
-        438,
-        441
+        436,
+        437
       ],
-      "DebugActionIndex": 461
+      "DebugActionIndex": 455
     },
     {
       "Annotation": "CopyFiles C:/Users/user/Downloads/html/TemplateData/webmemd-icon.png",
@@ -26279,10 +26108,10 @@
         10
       ],
       "ToBuildDependencies": [
-        438,
-        441
+        436,
+        437
       ],
-      "DebugActionIndex": 462
+      "DebugActionIndex": 456
     },
     {
       "Annotation": "Player",
@@ -26294,10 +26123,16 @@
       "ToBuildDependencies": [
         4,
         429,
+        436,
+        437,
         438,
-        441,
+        439,
         442,
         443,
+        444,
+        445,
+        446,
+        447,
         448,
         449,
         450,
@@ -26306,15 +26141,9 @@
         453,
         454,
         455,
-        456,
-        457,
-        458,
-        459,
-        460,
-        461,
-        462
+        456
       ],
-      "DebugActionIndex": 463
+      "DebugActionIndex": 457
     }
   ],
   "FileSignatures": [
@@ -26691,7 +26520,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 463
+          "Player": 457
         }
 ,  "DefaultNodes": [
     0
