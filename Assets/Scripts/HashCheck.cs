@@ -18,7 +18,7 @@ public class HashCheck : MonoBehaviour
     {
 #if UNITY_STANDALONE_WIN
         ok = await CheckBuildHash(Version);
-#elif UNITY_EDITOR
+#else
         ok=true;
 #endif
         StartCoroutine(run());

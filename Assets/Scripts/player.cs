@@ -38,16 +38,16 @@ public class player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-#if UNITY_EDITOR
-        lv = 2;
-        Maxhealth = 4 + lv;
-        Speed = 35f;
-#else
+//#if UNITY_EDITOR
+//        lv = 2;
+//        Maxhealth = 4 + lv;
+//        Speed = 35f;
+//#else
         DataTransfer dataTransfer = GameObject.Find("DataTransfer").GetComponent<DataTransfer>();
         Maxhealth = dataTransfer.Health;
         lv = dataTransfer.lv;
         Speed = dataTransfer.Speed;
-#endif
+//#endif
         CurrentHealth = Maxhealth;
         rb = GetComponent<Rigidbody2D>();
         am = GetComponent<Animator>();
