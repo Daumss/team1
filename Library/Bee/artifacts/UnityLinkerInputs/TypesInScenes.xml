@@ -13,7 +13,6 @@
 		<type fullname="Finish" preserve="nothing"/>
 		<type fullname="Fork" preserve="nothing"/>
 		<type fullname="ForkHead" preserve="nothing"/>
-		<type fullname="HashCheck" preserve="nothing"/>
 		<type fullname="hp" preserve="nothing"/>
 		<type fullname="Knife" preserve="nothing"/>
 		<type fullname="Knifecollider" preserve="nothing"/>
@@ -48,9 +47,6 @@
 		<type fullname="TMPro.TMP_Settings" preserve="nothing"/>
 		<type fullname="TMPro.TMP_SpriteAsset" preserve="nothing"/>
 		<type fullname="TMPro.TMP_StyleSheet" preserve="nothing"/>
-	</assembly>
-	<assembly fullname="Unity.Tutorials.Core">
-		<type fullname="Unity.Tutorials.Core.SceneObjectGuid" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine">
 		<type fullname="UnityEditor.Animations.AnimatorController" preserve="nothing"/>

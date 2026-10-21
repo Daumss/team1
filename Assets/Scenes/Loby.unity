@@ -2180,7 +2180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uCF54\uB529\uBC1C\uBA85 1\uBC18 1\uD300"
+  m_text: "by \uCF54\uB529\uBC1C\uBA85 1\uBC18"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 46f5f85c438a07e4abe47571779adcd0, type: 2}
   m_sharedMaterial: {fileID: 6268561107970271381, guid: 46f5f85c438a07e4abe47571779adcd0,

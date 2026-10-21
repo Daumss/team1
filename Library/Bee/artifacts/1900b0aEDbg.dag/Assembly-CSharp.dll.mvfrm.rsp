@@ -4,9 +4,6 @@ Library\Bee\artifacts\mvdfrm\Unity.AI.Navigation.Editor.ConversionSystem.ref.dll
 Library\Bee\artifacts\mvdfrm\Unity.AI.Navigation.Editor.ref.dll_D159463F08EBC828.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.AI.Navigation.Updater.ref.dll_624D4C5EA49E89F4.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.AI.Navigation.ref.dll_4DBD8B01BD2AE419.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.EditorCoroutines.Editor.ref.dll_A9E741B2F4D7FC42.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.InternalAPIEditorBridge.007.ref.dll_B04CDA745C08B1EB.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.InternalAPIEngineBridge.007.ref.dll_A2C7931EC1179930.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.PlasticSCM.Editor.ref.dll_038935ADFCD4A11D.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Postprocessing.Editor.ref.dll_4A31481CD6C74677.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Postprocessing.Runtime.ref.dll_A62F0B3B323564C4.mvfrm
@@ -15,8 +12,6 @@ Library\Bee\artifacts\mvdfrm\Unity.TextMeshPro.Editor.ref.dll_37E92434B2D8A6CF.m
 Library\Bee\artifacts\mvdfrm\Unity.TextMeshPro.ref.dll_A4B478B3CE6E8702.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Timeline.Editor.ref.dll_0DA365A2C678CBF9.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Timeline.ref.dll_733236CB90539738.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.Tutorials.Core.Editor.ref.dll_7D9CEC18A298EE12.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.Tutorials.Core.ref.dll_D16A4C2C59F9E78F.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.VisualStudio.Editor.ref.dll_0788C6E0BDFBBC54.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.UI.ref.dll_5DAE2CC8CF4B8C9E.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.UI.ref.dll_1A140323D56DB509.mvfrm
