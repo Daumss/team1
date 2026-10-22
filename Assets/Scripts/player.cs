@@ -96,7 +96,7 @@ public class player : MonoBehaviour
         #region
         else
         {
-#if UNITY_EDITOR || UNITY_STANDALONE_WIN
+#if UNITY_EDITOR || UNITY_STANDALONE_WIN || UNITY_WEBGL
             if (!(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A)) && !(Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)) && !(Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)) && IsHurt == true && attacking == false)//hurt
             {
                 Moving = new Vector2(-0.1f, 0);
