@@ -1,2 +1,4 @@
-Logs/
-Temp/
+/[Ll]ogs/
+/[Tt]emp/
+/[Aa]rtifacts/
+/[Cc]odeCoverage/
